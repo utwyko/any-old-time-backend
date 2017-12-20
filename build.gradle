@@ -38,6 +38,8 @@ repositories {
 dependencyManagement {
 	dependencies {
 		dependency "org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}"
+		dependency "org.jetbrains.kotlin:kotlin-stdlib-jre7:${kotlinVersion}"
+		dependency "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"
 		dependency "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"
 	}
 }
@@ -47,5 +49,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-webflux')
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8")
+	compile("org.jetbrains.kotlin:kotlin-reflect")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
