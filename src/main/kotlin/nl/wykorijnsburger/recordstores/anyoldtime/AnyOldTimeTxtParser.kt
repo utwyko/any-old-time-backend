@@ -2,7 +2,7 @@ package nl.wykorijnsburger.recordstores.anyoldtime
 
 import java.io.InputStream
 
-val DEFAULT_LINE_LENGTH = 8
+private const val DEFAULT_LINE_LENGTH = 8
 
 fun InputStream.parse(): List<Record> {
     val records = mutableListOf<Record>()
