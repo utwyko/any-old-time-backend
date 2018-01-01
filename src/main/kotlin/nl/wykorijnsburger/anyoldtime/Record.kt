@@ -1,4 +1,4 @@
-package nl.wykorijnsburger.recordstores.anyoldtime
+package nl.wykorijnsburger.anyoldtime
 
 data class Record(
         val artistName: String,

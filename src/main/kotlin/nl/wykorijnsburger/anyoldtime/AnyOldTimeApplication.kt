@@ -1,4 +1,4 @@
-package nl.wykorijnsburger.recordstores
+package nl.wykorijnsburger.anyoldtime
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

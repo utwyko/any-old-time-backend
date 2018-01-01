@@ -1,4 +1,4 @@
-package nl.wykorijnsburger.recordstores.anyoldtime
+package nl.wykorijnsburger.anyoldtime
 
 import org.springframework.core.io.ByteArrayResource
 import org.springframework.core.io.InputStreamResource

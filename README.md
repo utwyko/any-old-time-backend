@@ -1,11 +1,7 @@
-# Record Stores Backend
+# Any Old Time Backend
 
-A simple search API for searching record store collections, currently for the Any Old Time record store in Amsterdam.
+The great [AnyOldTime](http://www.anyoldtime.nl) record store publishes its collection as a text file on their website. This isn't very searchable and nice to use so I created a little application to fix this.
 
 Consists of:
-- A Spring Boot application providing an interface to query the record index
-- [A Vue.js frontend](https://github.com/utwyko/recordstores-frontend)
-
-## Any Old Time
-
-Any Old Time stores it's collection in a txt file, found on their site. The backend parses this TXT files and stores it in memory.
+- [A Spring Boot application providing an interface to query the record index](https://github.com/utwyko/any-old-time-backend)
+- [A Vue.js frontend](https://github.com/utwyko/any-old-time-frontend)

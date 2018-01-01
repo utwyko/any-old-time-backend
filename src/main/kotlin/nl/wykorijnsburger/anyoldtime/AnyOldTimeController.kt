@@ -1,13 +1,13 @@
-package nl.wykorijnsburger.recordstores.anyoldtime
+package nl.wykorijnsburger.anyoldtime
 
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping(path = ["/recordstore/anyoldtime"])
+@RequestMapping(path = ["/records"])
 class AnyOldTimeController(val anyOldTimeService: AnyOldTimeService) {
 
     @CrossOrigin
-    @GetMapping("/records")
+    @GetMapping
     fun getRecords(@RequestParam("q") searchTerm: String?) = anyOldTimeService.searchRecords(searchTerm)
             .map { it.toResponse() }
             .take(20)

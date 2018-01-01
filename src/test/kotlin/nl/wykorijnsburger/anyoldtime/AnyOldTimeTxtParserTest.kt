@@ -1,6 +1,6 @@
-package nl.wykorijnsburger.recordstores.anyoldtime
+package nl.wykorijnsburger.anyoldtime
 
-import org.assertj.core.api.Assertions.*
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
 class AnyOldTimeTxtParserTest {
